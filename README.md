@@ -6,6 +6,7 @@ Documentos oficiais, políticas e termos do Aloha.
 
 - [Política de Privacidade](https://aloha-drink-game.github.io/public/privacy-policy)
 - [Termos de Uso](https://aloha-drink-game.github.io/public/terms-of-use)
+- [Suporte](https://aloha-drink-game.github.io/public/support)
 
 ## Sobre o Aloha
 
