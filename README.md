@@ -1,15 +1,13 @@
-# Aloha Legal
+# Aloha
 
-Documentos oficiais, políticas e termos do Aloha.
+Site público com os documentos oficiais e os canais de suporte do Aloha.
 
-## Documentos
+## Páginas
 
-- [Política de Privacidade](https://aloha-drink-game.github.io/public/privacy-policy)
-- [Termos de Uso](https://aloha-drink-game.github.io/public/terms-of-use)
-- [Suporte](https://aloha-drink-game.github.io/public/support)
+- [Início](https://aloha-drink-game.github.io/public/)
+- [Política de Privacidade](https://aloha-drink-game.github.io/public/privacy-policy/)
+- [Exclusão de dados](https://aloha-drink-game.github.io/public/data-deletion/)
+- [Termos de Uso](https://aloha-drink-game.github.io/public/terms-of-use/)
+- [Suporte](https://aloha-drink-game.github.io/public/support/)
 
-## Sobre o Aloha
-
-Aloha é um jogo social premium de festa/drink game criado para momentos divertidos entre amigos.
-
-Beba com responsabilidade. 🍻
+O Aloha é uma plataforma de jogos sociais e party games para jogar sozinho ou presencialmente com amigos.
