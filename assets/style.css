@@ -56,14 +56,14 @@ main {
 }
 
 .logo {
-  width: 96px;
-  height: 96px;
-  border-radius: 24px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 0 1px var(--border-strong);
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  filter: drop-shadow(0 14px 28px rgba(0, 0, 0, 0.52));
   margin-bottom: 18px;
 }
 
-.logo.small { width: 64px; height: 64px; border-radius: 16px; }
+.logo.small { width: 126px; height: 126px; }
 
 h1 {
   font-family: 'LuckiestGuy', Arial, sans-serif;
@@ -104,6 +104,16 @@ h1 {
 .card p:last-child { margin-bottom: 0; }
 .card p.muted { color: var(--text-soft); font-size: 14px; }
 
+.card-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+}
+
+.card-grid .card { margin-bottom: 0; }
+
+.card h2 a { color: inherit; text-decoration: none; }
+
 .email-btn {
   display: inline-block;
   background: linear-gradient(180deg, var(--gold), var(--amber));
@@ -119,6 +129,13 @@ h1 {
 .legal { color: var(--text); font-size: 15px; }
 
 .legal .updated {
+  text-align: center;
+  color: var(--text-soft);
+  font-size: 13px;
+  margin: -8px 0 28px;
+}
+
+.updated {
   text-align: center;
   color: var(--text-soft);
   font-size: 13px;
@@ -146,6 +163,11 @@ h1 {
   margin: 0 0 12px;
   padding-left: 20px;
   color: var(--text);
+}
+
+.legal ol {
+  margin: 0 0 12px;
+  padding-left: 22px;
 }
 
 .legal li { margin-bottom: 6px; }
@@ -198,8 +220,8 @@ footer {
 }
 
 @media (max-width: 380px) {
-  .logo { width: 76px; height: 76px; border-radius: 18px; }
-  .logo.small { width: 56px; height: 56px; border-radius: 14px; }
+  .logo { width: 144px; height: 144px; }
+  .logo.small { width: 104px; height: 104px; }
   .lead { font-size: 14px; }
   .card, .legal section { padding: 16px; border-radius: 14px; }
   .email-btn { padding: 11px 18px; font-size: 14px; }
